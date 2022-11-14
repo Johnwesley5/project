@@ -1,4 +1,4 @@
-package net.javaguides.registration.model;
+package registration.model;
 
 public class User {
 	private String Name;
@@ -10,7 +10,7 @@ public class User {
 	public String getName() {
 		return Name;
 	}
-	public void setName(String Name, String Name) {
+	public void setName(String Name) {
 		this.Name = Name;
 	}
 	public String getEmail() {
